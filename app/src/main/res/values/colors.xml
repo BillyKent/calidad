@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5896ce</color>
+    <color name="colorPrimaryDark">#303e80</color>
+    <color name="colorAccent">#d5a13b</color>
+
+    <!-- Color del círculo del curso en la lista de cursos -->
+    <color name="courseColor">#3d5a98</color>
+
+    <!-- Color del titulo del curso -->
+    <color name="textColorMatterTitle">#2b3d4d</color>
+
+    <!-- Color de los detalles de la materia -->
+    <color name="textColorMatterDetails">#B4BAC0</color>
+
+    <!-- Color del nombre del profesor -->
+    <color name="textColorMatterTeacher">#9da5ac</color>
+
+
+
+    <!-- Colores para el circulo del ciclo -->
+    <color name="ciclo1">#4CAF50</color>
+    <color name="ciclo2">#2E7D32</color>
+    <color name="ciclo3">#3F51B5</color>
+    <color name="ciclo4">#283593</color>
+    <color name="ciclo5">#FFC107</color>
+    <color name="ciclo6">#FF8F00</color>
+    <color name="ciclo7">#9C27B0</color>
+    <color name="ciclo8">#6A1B9A</color>
+    <color name="ciclo9">#F44336</color>
+    <color name="ciclo10">#C62828</color>
+
+
+
+</resources>

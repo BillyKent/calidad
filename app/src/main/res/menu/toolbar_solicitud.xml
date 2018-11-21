@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/solicitud_continuar"
+        android:icon="@drawable/ic_right"
+        android:visible="true"
+        android:title="Continuar"
+        android:tooltipText="Continuar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/solicitud_enviar"
+        android:icon="@drawable/ic_send_white_24dp"
+        android:visible="false"
+        android:title="Enviar"
+        android:tooltipText="Enviar"
+        app:showAsAction="always" />
+</menu>

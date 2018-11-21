@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pocket Fisi</string>
+    <string name="title_news">Noticias</string>
+    <string name="title_courses">Cursos</string>
+    <string name="title_support">Soporte</string>
+    <string name="news_item_example_title">Taller de desarrollo de software</string>
+    <string name="newsitem_category_taller">Taller</string>
+    <string name="news_item_body_example">Se invita a la comunidad sanmarquina a participar de este taller orientado a mejorar las prácticas del desarrollo de software empresarial de manera gratuita.</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+    <!-- Strings related to login -->
+    <string name="prompt_code">Username</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">El código ingresado no es válido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

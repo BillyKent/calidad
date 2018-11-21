@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="82dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:paddingStart="8dp"
+
+    android:paddingLeft="8dp"
+    android:paddingEnd="10dp"
+    android:paddingRight="8dp"
+
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/tv_numero_ciclo"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ciclo_numero"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nombre_curso"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:gravity="left|center|top"
+        android:maxLines="2"
+        android:text="Introducción a la Teoría general de Sistemas"
+        android:textColor="@color/textColorMatterTitle"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_nombre_profesor"
+        app:layout_constraintEnd_toStartOf="@+id/tv_horario_curso"
+        app:layout_constraintStart_toEndOf="@+id/tv_numero_ciclo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_seccion" />
+
+    <TextView
+        android:id="@+id/tv_nombre_profesor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:maxLines="1"
+        android:text="Cortez Vasquez Carlos Augusto"
+        android:textColor="@color/textColorMatterTeacher"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_horario_curso"
+        app:layout_constraintStart_toEndOf="@+id/tv_numero_ciclo" />
+
+    <TextView
+        android:id="@+id/tv_seccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:text="Sección I"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorMatterDetails"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_numero_ciclo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_estado_curso"
+        android:layout_width="43dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_horario_curso"
+        app:layout_constraintStart_toStartOf="@+id/tv_horario_curso"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/ic_clock_cancelled" />
+
+    <TextView
+        android:id="@+id/tv_horario_curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="14:00 - 15:00"
+        android:textColor="@color/textColorMatterDetails"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/iv_estado_curso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
